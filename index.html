@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Meal Finder</title>
+<link rel="stylesheet" href="style.css?v=6">
+</head>
+<body>
+  <header>
+    <h1>Meal Finder</h1>
+    <p>Search any meal or ingredient, and filter by cuisine.</p>
+    <div class="search">
+      <input id="query" type="text" placeholder="e.g. chicken" aria-label="Search meals" value="chicken">
+      <select id="cuisine" aria-label="Filter by cuisine">
+        <option value="">All cuisines</option>
+      </select>
+      <button id="searchBtn" type="button">Search</button>
+    </div>
+  </header>
+
+  <main>
+    <p id="status" role="status"></p>
+    <section id="results"></section>
+
+    <section class="feedback" aria-labelledby="fbTitle">
+      <h2 id="fbTitle">Feedback &amp; suggestions</h2>
+      <p class="fb-intro">Tell us what you think, or suggest a meal or feature to add.</p>
+      <fieldset class="fb-type">
+        <legend>What would you like to send?</legend>
+        <label><input type="radio" name="fbType" value="Feedback" checked> Feedback</label>
+        <label><input type="radio" name="fbType" value="Suggestion"> Suggestion</label>
+      </fieldset>
+      <label class="fb-field" for="fbName">Your name (optional)</label>
+      <input id="fbName" type="text" maxlength="60" placeholder="Your name">
+      <div id="ratingRow">
+        <label class="fb-field" for="fbRating">How do you rate this site?</label>
+        <select id="fbRating">
+          <option value="5">5 – Excellent</option>
+          <option value="4">4 – Good</option>
+          <option value="3">3 – Okay</option>
+          <option value="2">2 – Poor</option>
+          <option value="1">1 – Very poor</option>
+        </select>
+      </div>
+      <label class="fb-field" for="fbMessage" id="fbMessageLabel">Your feedback</label>
+      <textarea id="fbMessage" rows="4" maxlength="500"></textarea>
+      <button id="fbSubmit" type="button">Send</button>
+      <p id="fbStatus" role="status"></p>
+      <div id="fbListWrap" hidden>
+        <h3>Your messages</h3>
+        <ul id="fbList"></ul>
+      </div>
+    </section>
+  </main>
+
+  <p class="version">Version 6</p>
+  <script src="script.js?v=6"></script>
+</body>
+</html>
