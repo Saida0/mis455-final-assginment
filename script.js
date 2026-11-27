@@ -6,7 +6,7 @@ const statusEl = $("status"), resultsEl = $("results");
 // MealDB mixes country names (India) and cuisine names (Indian). Show cuisine names only.
 const CUISINE = {
   india:"Indian", bangladesh:"Bangladeshi", pakistan:"Pakistani", nepal:"Nepali", "sri lanka":"Sri Lankan",
-  china:"Chinese", japan:"Japanese food", korea:"Korean", "south korea":"Korean", thailand:"Thai", vietnam:"Vietnamese",
+  china:"Chinese", japan:"Japanese", korea:"Korean", "south korea":"Korean", thailand:"Thai", vietnam:"Vietnamese",
   malaysia:"Malaysian", indonesia:"Indonesian", philippines:"Filipino", singapore:"Singaporean", taiwan:"Taiwanese",
   cambodia:"Cambodian", italy:"Italian", france:"French", spain:"Spanish", portugal:"Portuguese", greece:"Greek",
   germany:"German", netherlands:"Dutch", holland:"Dutch", ireland:"Irish", poland:"Polish", russia:"Russian",
