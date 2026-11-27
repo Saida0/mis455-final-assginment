@@ -13,7 +13,7 @@ const CUISINE = {
   ukraine:"Ukrainian", croatia:"Croatian", slovakia:"Slovakian", norway:"Norwegian", sweden:"Swedish",
   denmark:"Danish", finland:"Finnish", switzerland:"Swiss", turkey:"Turkish", "türkiye":"Turkish", syria:"Syrian",
   lebanon:"Lebanese", iran:"Iranian", iraq:"Iraqi", israel:"Israeli", "saudi arabia":"Saudi Arabian",
-  egypt:"Egyptian", morocco:"Moroccan", tunisia:"Tunisian", algeria:"Algerian", kenya:"Kenyan",
+  egypt:"Egyptian", morocco:"Moroccann", tunisia:"Tunisian", algeria:"Algerian", kenya:"Kenyan",
   nigeria:"Nigerian", ethiopia:"Ethiopian", "south africa":"South African", usa:"American",
   "united states":"American", america:"American", uk:"British", "united kingdom":"British", england:"British",
   britain:"British", canada:"Canadian", mexico:"Mexican", jamaica:"Jamaican", cuba:"Cuban", brazil:"Brazilian",
